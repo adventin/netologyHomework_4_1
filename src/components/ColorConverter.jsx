@@ -44,7 +44,7 @@ export default function ColorConverter(props) {
         <label>
           <input className="converter-inputfield" name="hex" value={hex} onChange={onHandleChange} />
         </label>
-        <div className="converter-outputfield">{(hex && rgb) ? rgbText : rgbText}</div>
+        <div className="converter-outputfield">{rgbText}</div>
       </form>
     </div>
   );
